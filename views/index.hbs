@@ -1,0 +1,99 @@
+
+<body>
+	<!-- banner section stert -->
+	<div class="banner_section">
+		<div class="container-fluid">
+			<section class="slide-wrapper">
+                <div class="container-fluid">
+	            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                       <li data-target="#myCarousel" data-slide-to="1"></li>
+                       <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+							
+				            <div class="col-md-7">
+					            <div class="images_1"><img src="images/lego-marvel.png"></div>
+					            <div class="banner_main">
+						            <div class="banner_left">
+							            <div class="red_bt"><a href="#">Read More</a></div>
+						            </div>
+						     
+					        </div>
+				        </div>
+				            <div class="col-md-5">
+					            <div class="images_2"><img src="images/LEGO.png"></div>
+				            </div>
+			            </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row">
+				       <div class="col-md-7">
+					       <div class="images_1"><img src="images/lego-marvel.png"></div>
+				        	<div class="banner_main">
+					     	
+					        </div>
+				        </div>
+				        <div class="col-md-5">
+					        <div class="images_2"><img src="images/superman.png"></div>
+				        </div>
+			        </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row">
+				       <div class="col-md-7">
+					       <div class="images_1"><img src="images/LEGO.png"></div>
+				        	<div class="banner_main">
+					     	    <div class="banner_left">
+							        <div class="red_bt"><a href="#">Read More</a></div>
+						        </div>
+						       
+				        </div>
+			        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+			
+		</div>
+	</div>
+	<!-- banner section end -->
+	<!-- about section start -->
+	<div class="about_section layout_padding">
+		<div class="container">
+			<h1 class="about_text">About Us</h1>
+			<p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+			<div class="about_bt"><a href="#">Read More</a></div>
+		</div>
+	</div>
+	<!-- about section end -->
+
+	<div class="cameras_section layout_padding">
+		<div class="container">
+			<h1 class="Cameras_text">Our Toy</h1>
+			<div class="cameras_section_2">
+				<div id="main_slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+		{{#each  toys}}
+				<div class="col-md-6">
+						<div class="images_3"><img src="{{img}}"></div>
+					
+					</div>
+		{{/each}}	
+    </div>
+			</div> 
+		</div>
+	</div>
+
+
+</body>
